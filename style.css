@@ -1,0 +1,116 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.ftheader {
+  position: relative;
+  width: 900px;
+  height: 500px;
+  bottom: 200px;
+}
+
+
+header {
+  background-size: cover;
+  background-position: right center;
+  background-image: url(imagens/bg-3.jpg);
+  height: 500px;
+}
+
+body {
+  background-color: lightgray;
+}
+
+main {
+  padding: 10%;
+}
+
+.bloco {
+  margin-bottom: 50px;
+  padding: 5px 10px; 
+  background-color: #ffff;
+}
+
+
+
+
+.titulo {
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.text {
+  text-align: justify;
+  margin: auto;
+  padding: 5px;
+}
+
+.saibamais {
+  list-style-type: none;
+  padding: 5px;
+  margin-right: 90%;
+  text-align: center;
+  background-color: lightgray;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: #8a8a8a;
+}
+
+
+.menu2 {
+  text-align: center;
+  position: center;
+}
+
+
+.titulo1 {
+  text-shadow: 2px 2px 2px black;
+  font-size: 56px;
+  font-family: Arial;
+  color: white;
+}
+
+.subtitulo {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  color: white;
+  background-color: black;
+
+}
+
+.menus nav ul {
+  margin: 20px 50px 0 0;
+  text-align: right;
+}
+
+.menus nav li {
+  border: 1px solid white;
+  align-items: right;
+  padding: 5px;
+  list-style: none;
+  display: inline-block;
+}
+
+.menus nav a {
+  background-color: rgba(0, 0, 0, 3);
+  padding: 16px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
